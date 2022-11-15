@@ -1,0 +1,38 @@
+body,
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wordle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 2px;
+  border: 2px solid rgb(201, 199, 199);
+  font-size: 2rem;
+}
+.title p {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  margin: 4px;
+}
