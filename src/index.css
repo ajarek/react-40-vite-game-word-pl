@@ -3,12 +3,23 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(197, 234, 234);
 }
 .wordle {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+}
+.wordle-letter{
+  display:inline-block;
+  border: 1px solid rgb(45, 44, 44);
+  width: 1.5rem;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #90ee90;
+  color: #fff;
 }
 .title {
   width: 48px;
@@ -18,7 +29,7 @@ body,
   align-items: center;
   padding: 2px;
   margin: 2px;
-  border: 2px solid rgb(201, 199, 199);
+  border: 2px solid rgb(159, 158, 158);
   font-size: 2rem;
 }
 .title p {
@@ -35,4 +46,8 @@ body,
 }
 .grid {
   margin: 4px;
+}
+
+.pl{
+  background-color: gold;
 }
