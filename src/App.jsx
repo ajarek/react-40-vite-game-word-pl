@@ -22,6 +22,7 @@ function App() {
   function pressEnter(){
     if(currentRow > 5) return alert('Niestety wyczerpałeś wszystkie swoje próby. Prawidłowa odpowiedź to: '+word)
     if(guessWord.length<5) return
+    if(!dictionary.includes(guessWord.toLocaleLowerCase())) return alert('Nie znaleziono słowa')
     if(guessWord === word) alert('Gratulacje, Wygrana!')
     
     setCurrentRow(currentRow+1)

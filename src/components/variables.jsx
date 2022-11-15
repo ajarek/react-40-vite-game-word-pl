@@ -68,7 +68,6 @@ export const dictionary =[
     'pudło',
     'płyta',
     'ramka',
-    'ramka',
     'rosół',
     'serce',
     'sklep',
