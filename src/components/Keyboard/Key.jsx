@@ -20,6 +20,7 @@ export default function Key(props) {
         return(
        
             <button 
+            className='.button'
              onClick={()=> handleClickForBig()}
             style={{
                     width: 65.4,
@@ -32,7 +33,8 @@ export default function Key(props) {
                     backgroundColor:'#848789',
                     color:'black',
                     fontFamily:'Arial',
-                    cursor:'pointer', 
+                    cursor:'pointer',
+                    boxShadow:'2px 2px 0px rgba(0,0,0,0.4)', 
                     border:0, fontWeight:'bold'
 
          }}>{props.letter}</button>
@@ -42,6 +44,7 @@ export default function Key(props) {
     return(
        
         <button 
+        className='button'
          onClick={()=> guessTheWord(props.letter)}
         style={{
                 width:43,
@@ -55,6 +58,7 @@ export default function Key(props) {
                 color:'black',
                 fontFamily:'Arial',
                 cursor:'pointer', 
+                boxShadow:'2px 2px 0px rgba(0,0,0,0.4)',
                 border:0, fontWeight:'bold'
 
      }}>{props.letter}</button>

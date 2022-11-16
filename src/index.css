@@ -10,7 +10,6 @@ body,
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 .wordle-letter{
   display:inline-block;
@@ -50,4 +49,7 @@ body,
 
 .pl{
   background-color: gold;
+}
+.button:active{
+  transform: translateX(1px) translateY(1px);
 }

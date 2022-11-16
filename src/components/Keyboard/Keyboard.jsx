@@ -13,6 +13,7 @@ export default function Keyboard() {
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'center',
+          flexWrap: 'wrap',
           margin: 0,
         }}
       >
@@ -32,6 +33,7 @@ export default function Keyboard() {
         style={{
           display: 'flex',
           flexDirection: 'row',
+          flexWrap: 'wrap',
           justifyContent: 'center',
           margin: 0,
         }}
@@ -52,6 +54,7 @@ export default function Keyboard() {
         style={{
           display: 'flex',
           flexDirection: 'row',
+          flexWrap: 'wrap',
           justifyContent: 'center',
           margin: 0,
         }}
